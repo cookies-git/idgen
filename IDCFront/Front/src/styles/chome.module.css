@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500&display=swap');
+
+
+.body{
+  display:flex;
+  min-height:100vh;  
+}
+.leftHome{
+    flex: 1;
+    background-color: #fdfdfd;
+    padding: 30px 0px 0px 30px;
+    display: flex;
+    align-items: center;
+}
+.rightHome{
+    flex: 1;
+    padding: 30px 0px 0px 30px;
+}
+.imageoverlay>img{
+  width:90%;
+}
+.logo>img{
+  width:200px;
+}
+
+.headingFirst{
+  padding-top: 82px;
+font-family: 'Paytone One', sans-serif;
+  font-size: 4em;
+}
+.headingSecond{
+  padding-top: 40px;
+  font-family: 'Mitr', sans-serif;
+  font-weight:500;
+  font-size: 3em;
+}
+.buttonClass{
+  display:flex;
+  flex-direction:column;
+  align-items: start;
+  padding-top:20px;
+  width: 230px;
+}
+.buttonSignup{
+  border-radius:50px;
+  border: 1px solid  #039be5 ;
+  padding:10px 50px;
+  font-family: 'Mitr', sans-serif;
+  font-size:15px;
+  background-color: #039be5;
+  color: #ffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  flex:1;
+  width: 230px;
+}
+.buttonSignup:hover {
+  background-color:  #1976d2 ;
+}
+.buttonText {
+font-size:11px;
+color: #616161;
+padding: 15px 0px;
+  flex:1;
+}
+.linkspan{
+  color: #039be5;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: #414141;
+  margin: 20px 0;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background-color: #b4b4b4;
+}
+
+.line::before,
+.line::after {
+  content: '';
+  top: 0;
+  background-color: #b4b4b4;
+}
+
+.line::before {
+  right: 100%;
+  margin-right: 50px;
+}
+
+.line::after {
+  left: 100%;
+  margin-left: 50px;
+}
+
+.or{
+    font-family: sans-serif;
+margin:0px 5px;
+}
+
+.signinHead{
+   padding: 20px 0px;
+font-family: 'Paytone One', sans-serif;
+  font-weight:200;
+}
+
+.buttonSignin{
+  border-radius:50px;
+  border: 1px solid  #039be5 ;
+  padding:10px 50px;
+  font-family: 'Mitr', sans-serif;
+  font-size:15px;
+  background-color: #ffffff;
+  color: #039be5;
+  cursor: pointer;
+  transition: background-color 1s ease;
+  flex:1;
+  width: 230px;
+}
+.buttonSignin:hover {
+  background-color:  #039be5 ;
+  color: #ffffff;
+}
+
+.links{
+  display:flex;
+  justify-content: space-between;
+  padding:0 15px 5px 15px;
+  flex-wrap: wrap;
+
+}
+.linkType{
+    padding-left:5px;
+  color:#9f9f9f;
+}
+
+
+@media screen and (max-width: 800px) {
+  .leftHome {
+    display: none; 
+  }
+}
+.loadingD{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+}
+.loadingD>img{
+  width: 75px;
+}

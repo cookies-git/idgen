@@ -1,0 +1,142 @@
+
+.loadingD, .bodySign, .formSignin, .header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.loadingD>img{
+  width: 45px;
+}
+.header>img{
+  width:200px;
+}
+
+.heading{
+  padding: 10px 0px; 
+   font-family: 'Paytone One', sans-serif;
+  font-size:2rem;
+  color: #242424;
+}
+
+
+.inputcontainer {
+  width: 260px;
+  position: relative;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 10px 0;
+}
+
+.inputcontainer:focus-within {
+  border: 1px solid #039be5;
+}
+
+.inputClass {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #252525;
+  font-family: 'Mitr';
+}
+
+.inputcontainer .labelClass {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: #999;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  pointer-events: none;
+}
+
+.buttonClass{
+  margin-top:10px;
+  border-radius:25px;
+  border: 1px solid  #011e2c ;
+  padding:10px 50px;
+  font-family: 'Mitr', sans-serif;
+  font-size:15px;
+  background-color: #011e2c;
+  color: #ffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  flex:1;
+  width: 260px;
+}
+
+.buttonClass:hover {
+  background-color:  #000a0f ;
+}
+
+.buttonForgotClass{
+  margin-top:10px;
+  border-radius:25px;
+  border: 1px solid  #039be5 ;
+  padding:10px 50px;
+  font-family: 'Mitr', sans-serif;
+  font-size:15px;
+  background-color: #ffffff;
+  color: #039be5;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  flex:1;
+  width: 260px;
+}
+
+.buttonForgotClass:hover {
+  background-color:  #dbdbdb ;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: #414141;
+  margin: 20px 0;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background-color: #b4b4b4;
+}
+
+.line::before,
+.line::after {
+  content: '';
+  top: 0;
+  background-color: #b4b4b4;
+}
+
+.line::before {
+  right: 100%;
+  margin-right: 50px;
+}
+
+.line::after {
+  left: 100%;
+  margin-left: 50px;
+}
+
+.or{
+    font-family: sans-serif;
+margin:0px 5px;
+}
+
+.littleHead{
+font-family: 'Mitr', sans-serif;
+font-weight:400;
+}
+
+.linkClass{
+  color: #039be5;
+}
+.linkClass:hover{
+  text-decoration:underline;
+  cursor: pointer;
+}

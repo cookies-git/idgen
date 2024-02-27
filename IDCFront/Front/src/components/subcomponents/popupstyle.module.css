@@ -1,0 +1,38 @@
+.popup{
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100vh;
+  background-color: #676767;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popupinner{
+  position: relative;
+  padding: 32px;
+  width:100%;
+  max-width: 640px;
+  background-color: #fff;
+  border-radius:14px;
+}
+
+.popupinner .closebtn{
+  position: absolute;
+  top:16px;
+  right:16px;
+}
+.closebtn{
+  cursor: pointer;
+}
+.closebtn>img{
+  width:18px;
+}
+@media screen and (max-width: 800px) {
+  .popupinner{
+  max-width: 450px;
+}
+}

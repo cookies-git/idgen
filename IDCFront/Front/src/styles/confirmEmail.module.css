@@ -1,0 +1,72 @@
+.confirm-email-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.message {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  margin-top: 20px;
+}
+
+.label {
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+.input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1.2rem;
+  width: 250px;
+  margin-left: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.success-message{
+  color: green;
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.countdown-message {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}

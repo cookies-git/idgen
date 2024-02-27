@@ -1,0 +1,207 @@
+/* .loadingD, .bodySign, .formSignin, .header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.loadingD>img{
+  width: 45px;
+}
+.header>img{
+  width:200px;
+}
+
+.heading{
+  padding: 10px 0px; 
+   font-family: 'Paytone One', sans-serif;
+  font-size:2rem;
+  color: #242424;
+} */
+
+
+.inputcontainer {
+ width: 100%;
+  position: relative;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 10px 0;
+}
+
+.inputcontainer:focus-within {
+  border: 1px solid #039be5;
+}
+
+.inputClass {
+width:100%;
+  padding: 5px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #252525;
+  font-family: 'Mitr';
+}
+
+.inputcontainer .labelClass {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: #999;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  pointer-events: none;
+}
+/* Hide the number input arrows */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+.dateLabel{
+  position: absolute;
+  top: 0px;
+  left: 15px;
+  font-size :10px;
+  color : #999;
+  font-family : "Mitr";
+}
+
+.inputClass:focus + .dateLabel{
+  color: #039be5;
+}
+
+
+.gridContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Start from the beginning of the container */
+  align-items: center; /* Align items at the top of the container */
+  gap: 10px; /* Add some spacing between items */
+  flex-direction: column;
+}
+
+.group1 {
+  display: flex;
+    flex-wrap: wrap;
+  flex-direction: row;
+  flex: 1; /* Take up one unit of available space */
+  gap: 10px;
+}
+
+.group2, .group3 {
+  display: flex;
+    flex-wrap: wrap;
+  flex-direction: row;
+  flex: 1; /* Take up one unit of available space */
+  gap: 10px;
+}
+
+.item1, .item2, .item3, .item4, .item5, .item6, .item7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  flex: 1; /* Take up one unit of available space */
+}
+
+
+.formClass{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap:wrap;
+}
+.header{
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+.header>img{
+  width:200px;
+}
+
+.heading{
+  padding: 10px 0px; 
+   font-family: 'Paytone One', sans-serif;
+  font-size:2rem;
+  color: #242424;
+}
+
+
+.formButton{
+  margin-top:10px;
+  border-radius:25px;
+  border: 1px solid  #011e2c ;
+  padding:10px 50px;
+  font-family: 'Mitr', sans-serif;
+  font-size:15px;
+  background-color: #011e2c;
+  color: #ffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  flex:1;
+  width: 260px;
+}
+
+.formButton:hover {
+  background-color:  #000a0f ;
+}
+
+
+.separator {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: #414141;
+  margin: 20px 0;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background-color: #b4b4b4;
+}
+
+.line::before,
+.line::after {
+  content: '';
+  top: 0;
+  background-color: #b4b4b4;
+}
+
+.line::before {
+  right: 100%;
+  margin-right: 50px;
+}
+
+.line::after {
+  left: 100%;
+  margin-left: 50px;
+}
+
+.or{
+    font-family: sans-serif;
+margin:0px 5px;
+}
+
+.littleHead{
+font-family: 'Mitr', sans-serif;
+font-weight:400;
+}
+
+.linkClass{
+  color: #039be5;
+}
+.linkClass:hover{
+  text-decoration:underline;
+  cursor: pointer;
+}
